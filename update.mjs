@@ -422,7 +422,7 @@ const base = {
   '*.ascx': '$(capture).*.cs, $(capture).*.vb',
   '*.ashx': '$(capture).*.cs, $(capture).*.vb',
   '*.aspx': '$(capture).*.cs, $(capture).*.vb',
-  '*.axaml': '$(capture).axaml.cs',
+  '*.axaml': '$(capture).axaml.cs,$(capture).axaml.model.cs',
   '*.bloc.dart': '$(capture).event.dart, $(capture).state.dart',
   '*.c': '$(capture).h',
   '*.cc': '$(capture).hpp, $(capture).h, $(capture).hxx, $(capture).hh',
