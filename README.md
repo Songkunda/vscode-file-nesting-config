@@ -26,7 +26,7 @@ Open your VS Code, bring up your `settings.json`, copy-n-paste the snippet below
 <!-- eslint-skip -->
 
 ```jsonc
-  // updated 2024-09-05 16:10
+  // updated 2024-09-06 17:12
   // https://github.com/antfu/vscode-file-nesting-config
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
@@ -81,7 +81,7 @@ Open your VS Code, bring up your `settings.json`, copy-n-paste the snippet below
     "*.ascx": "$(capture).*.cs, $(capture).*.vb",
     "*.ashx": "$(capture).*.cs, $(capture).*.vb",
     "*.aspx": "$(capture).*.cs, $(capture).*.vb",
-    "*.axaml": "$(capture).axaml.cs",
+    "*.axaml": "$(capture).axaml.cs,$(capture).axaml.model.cs",
     "*.bloc.dart": "$(capture).event.dart, $(capture).state.dart",
     "*.c": "$(capture).h",
     "*.cc": "$(capture).hpp, $(capture).h, $(capture).hxx, $(capture).hh",
@@ -116,7 +116,7 @@ Open your VS Code, bring up your `settings.json`, copy-n-paste the snippet below
     "*.vbproj": "*.config, *proj.user, appsettings.*, bundleconfig.json",
     "*.vue": "$(capture).*.ts, $(capture).*.js, $(capture).story.vue",
     "*.w": "$(capture).*.w, I$(capture).w",
-    "*.xaml": "$(capture).xaml.cs"
+    "*.xaml": "$(capture).xaml.cs,,$(capture).xaml.model.cs"
   },
 ```
 
