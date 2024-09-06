@@ -451,7 +451,7 @@ const base = {
   '*.tsx': '$(capture).ts, $(capture).*.tsx, $(capture)_*.ts, $(capture)_*.tsx, $(capture).less, $(capture).module.less, $(capture).module.less.d.ts, $(capture).scss, $(capture).module.scss, $(capture).module.scss.d.ts, $(capture).css.ts',
   '*.vue': '$(capture).*.ts, $(capture).*.js, $(capture).story.vue',
   '*.w': '$(capture).*.w, I$(capture).w',
-  '*.xaml': '$(capture).xaml.cs',
+  '*.xaml': '$(capture).xaml.cs,,$(capture).xaml.model.cs',
   'ansible.cfg': 'ansible.cfg, .ansible-lint, requirements.yml',
   'BUILD.bazel': '*.bzl, *.bazel, *.bazelrc, bazel.rc, .bazelignore, .bazelproject, WORKSPACE',
   'CMakeLists.txt': '*.cmake, *.cmake.in, .cmake-format.yaml, CMakePresets.json, CMakeCache.txt',
